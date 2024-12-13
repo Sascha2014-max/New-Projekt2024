@@ -1,0 +1,152 @@
+<html>
+    <title>Дресирування Собак</title>
+    <style>
+      body {font-family:Tahoma; background-color:Cornsilk;} 
+      h1 {text-align: center;}
+      .header {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background-image: url('https://smart-dogs.ru/upload/iblock/931/9311186554ad324ca9354ab8c02d8ad3.jpg'); /* Укажите путь к вашему изображению */
+            background-size: cover;
+            background-position: center;
+		    animation: fadeIn 1.5s ease-out;
+            margin-top: 20px;
+        }
+
+        /* Анимация для шапки */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+                /* Анимация для заголовка */
+        @keyframes slideIn {
+            from {
+                transform: translateY(60px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0px);
+                opacity: 1;
+            }
+        }
+
+        /* Затемнение на шапке */
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6); /* Полупрозрачное черное затемнение */
+        }
+
+        /* Стиль для заголовка */
+        .header h1 {
+            position: absolute;
+            color: Cornsilk;
+            bottom: 5%;;
+            background-color: rgba(255, 255, 255, 0);
+            padding: 20px 40px;
+            font-size: 36px;
+            text-align: center;
+            margin: 0;
+            animation: slideIn 1s ease-out;
+
+
+        }
+        a {
+            text-decoration: none; color: black;
+        }
+        a:hover {
+            font-weight: bold;
+            color: black;
+        }
+        
+    </style>
+    <body>
+    <header>
+    <div style="display: flex; align-items: center; justify-content: space-between; background-color:white; padding: 0 15px 0 0;">
+        <img src="https://o.remove.bg/uploads/597d3248-357b-4cc3-80f7-db38389c0eb8/dog-white-background-logo-free-space-name_84176-13771-removebg-preview.png" height="100px" width="100px">
+        <div>
+            <a href="#link1">Важливість дрессирування</a> |
+            <a href="#link2">Догляд за собакою</a> |
+            <a href="#link3">Ціни</a>
+        </div>
+    </div>
+    <p style="text-align:center; background-color:white; padding: 10px;">
+        <a href=" https://sascha2014-max.github.io/-2/">Сторінка для дресирування собак </a>
+    </p>
+    <div class="header">
+        <h1>Дрессировка собак: важливість навчання та догляду</h1>
+    </div>
+    </header>
+    <main>
+        <br>
+        <p>Дрессировка собак — це не тільки необхідний процес для полегшення взаєморозуміння між вами та вашим чотириногим другом, але й важливий етап для забезпечення його гармонійного розвитку та комфорту. Навчання на спеціальному полігоні з різноманітними перешкодами та інтерактивними елементами допомагає собаці бути активною, слухняною та стресостійкою.</p>
+
+        <h2 id="#link1">Чому важлива дрессировка для собак?</h2>
+        <ul>
+            <li><strong>Покращення поведінки</strong>: Дрессировка допомагає уникнути небажаних звичок, таких як агресія, тривожність або неслухняність.</li>
+            <li><strong>Розвиток слухняності</strong>: Собака, яка проходить навчання, швидше реагує на команди та вміє контролювати свої емоції.</li>
+            <li><strong>Покращення фізичної форми</strong>: Виконання вправ на спеціальних перешкодах сприяє розвитку сили, гнучкості та витривалості.</li>
+            <li><strong>Взаєморозуміння</strong>: Дрессировка допомагає власникам краще розуміти своїх собак, а собаки — своїх господарів.</li>
+        </ul>
+        <img src="https://lfriend.com.ua/image/cache/catalog/lalala/jjjjjjjjj/1680276150_animals-pibig-info-p-dressirovshchik-sobak-zhivotnie-krasivo-60-1000x550.jpeg"height="295"width="526">
+        <h2>Правильний догляд за собакою</h2>
+        <p>Догляд за собакою не обмежується лише регулярним харчуванням та прогулянками. Важливими складовими є:</p>
+        <ul>
+            <li><strong>Регулярні фізичні навантаження</strong>: Прогулянки та тренування допомагають підтримувати собаку в тонусі та покращують її загальний стан.</li>
+            <li><strong>Психологічний комфорт</strong>: Собаки, які отримують достатньо уваги та турботи, мають менше стресу та нервових розладів.</li>
+            <li><strong>Гігієна та здоров'я</strong>: Перевірки ветеринара, правильне харчування та догляд за шерстю — це основа здоров'я вашої собаки.</li>
+        </ul>
+
+        <h2>Запишіться на дрессировку собак в Дніпрі!</h2>
+        <p>Не втрачайте можливості забезпечити вашому улюбленцю найкраще навчання та догляд! Ми пропонуємо професійне навчання на спеціальному полігоні в Дніпрі, де собаки проходять тренування на полосі перешкод і за допомогою інтерактивних елементів покращують свої навички. Наші тренери мають великий досвід і використовують індивідуальний підхід до кожної собаки.</p>
+
+        <h3>Наші послуги та ціни</h3>
+        <table border="1" cellpadding="10">
+            <thead>
+                <tr>
+                    <th>Послуга</th>
+                    <th>Ціна (грн)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Індивідуальні заняття (30 хвилин)</td>
+                    <td>300 грн</td>
+                </tr>
+                <tr>
+                    <td>Групові заняття (1 година)</td>
+                    <td>500 грн</td>
+                </tr>
+                <tr>
+                    <td>Курс з послуху (10 занять)</td>
+                    <td>2500 грн</td>
+                </tr>
+                <tr>
+                    <td>Обучення на полігоні з перешкодами (1 година)</td>
+                    <td>350 грн</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Запишіться на заняття вже сьогодні і зробіть перший крок до успішної дрессировки вашого улюбленця!</p>
+        <p style="text-align: center;">Коротке відео о дресируванні собак <br><img src="https://cdn-icons-png.flaticon.com/512/32/32195.png"height="20"></p>
+        <iframe width="100%" height="415" src="https://www.youtube.com/embed/Yv3Fk3ov0iw?si=8GwlBMCNjZ0xJezi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </main>
+    <footer style="background-color: white; padding: 20px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; font-family: 'Franklin Gothic';">
+            <p>Дресирування 2024.</p>
+            <p>Соціальна мережа: <a href="facebook.com">facebook</a></p>
+            <p>Контактний номер: <a href="tel:0671234567">067-123-45-67</a></p>
+        </div>
+    </footer>
+    </body>
+</html>
